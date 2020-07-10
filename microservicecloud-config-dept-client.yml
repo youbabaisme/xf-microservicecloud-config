@@ -61,7 +61,7 @@ spring:
   
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.xr.springcloud.entities
+  type-aliases-package: com.xr.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
  
